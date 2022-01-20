@@ -1,0 +1,215 @@
+==================================
+Test Reading...
+read:>this<
+read:> is <
+read:>a te<
+read:>st
+<
+Done Test Reading
+==================================
+==================================
+Test Writing...
+writing:This is a test of write
+line 2
+
+which is 31 bytes
+wrote: 31 bytes
+Done Test Writing
+==================================
+==================================
+Test Appending...
+writing:This is a test of append
+line 2
+
+which is 32 bytes
+wrote: 32 bytes
+Done Test Appending
+==================================
+==================================
+Test Copy File...
+read:>this<
+writing:this
+which is 4 bytes
+wrote: 4 bytes
+read:> is <
+writing: is 
+which is 4 bytes
+wrote: 4 bytes
+read:>a te<
+writing:a te
+which is 4 bytes
+wrote: 4 bytes
+read:>st
+t<
+writing:st
+t
+which is 4 bytes
+wrote: 4 bytes
+read:>his <
+writing:his 
+which is 4 bytes
+wrote: 4 bytes
+read:>is a<
+writing:is a
+which is 4 bytes
+wrote: 4 bytes
+read:> tes<
+writing: tes
+which is 4 bytes
+wrote: 4 bytes
+read:>t
+th<
+writing:t
+th
+which is 4 bytes
+wrote: 4 bytes
+read:>is i<
+writing:is i
+which is 4 bytes
+wrote: 4 bytes
+read:>s a <
+writing:s a 
+which is 4 bytes
+wrote: 4 bytes
+read:>test<
+writing:test
+which is 4 bytes
+wrote: 4 bytes
+read:>
+thi<
+writing:
+thi
+which is 4 bytes
+wrote: 4 bytes
+read:>s is<
+writing:s is
+which is 4 bytes
+wrote: 4 bytes
+read:> a t<
+writing: a t
+which is 4 bytes
+wrote: 4 bytes
+read:>est
+<
+writing:est
+
+which is 4 bytes
+wrote: 4 bytes
+read:>this<
+writing:this
+which is 4 bytes
+wrote: 4 bytes
+read:> is <
+writing: is 
+which is 4 bytes
+wrote: 4 bytes
+read:>a te<
+writing:a te
+which is 4 bytes
+wrote: 4 bytes
+read:>st
+t<
+writing:st
+t
+which is 4 bytes
+wrote: 4 bytes
+read:>his <
+writing:his 
+which is 4 bytes
+wrote: 4 bytes
+read:>is a<
+writing:is a
+which is 4 bytes
+wrote: 4 bytes
+read:> tes<
+writing: tes
+which is 4 bytes
+wrote: 4 bytes
+read:>t
+<
+writing:t
+
+which is 2 bytes
+wrote: 2 bytes
+Done Test Copy File
+==================================
+==================================
+Test Read Int...
+Read:123
+Read:-123
+Read:456
+Done Test Read Int
+==================================
+==================================
+Test Write Int...
+Wrote:1234 which is 4 bytes
+Wrote:-2345 which is 5 bytes
+Wrote:987 which is 3 bytes
+Done Test Read Int
+==================================
+==================================
+Test Copy File...
+read:>101440980 19570810 Betty Lamprey 76988
+103980155 19270624 Pinky Fellowes 55325
+106100903 19470314 Oliver Kringle 12807
+108690448 19480105 Larry Brown 87195
+111180924 19641028 Adolf Davies 66930
+112200747 19710227 Bella Napster 19260
+1125504<
+writing:101440980 19570810 Betty Lamprey 76988
+103980155 19270624 Pinky Fellowes 55325
+106100903 19470314 Oliver Kringle 12807
+108690448 19480105 Larry Brown 87195
+111180924 19641028 Adolf Davies 66930
+112200747 19710227 Bella Napster 19260
+1125504
+which is 240 bytes
+wrote: 240 bytes
+read:>07 19730716 Marianne Stone 54579
+113070570 19570504 Apu Mitchell 30448
+113220519 19401023 Jilly Aston 41058
+114680858 19670607 Matilda Vincent 71734
+114930037 19471024 Desdemona Hanover 69743
+115550206 19790110 Xanadu Perlman 12193
+11652062<
+writing:07 19730716 Marianne Stone 54579
+113070570 19570504 Apu Mitchell 30448
+113220519 19401023 Jilly Aston 41058
+114680858 19670607 Matilda Vincent 71734
+114930037 19471024 Desdemona Hanover 69743
+115550206 19790110 Xanadu Perlman 12193
+11652062
+which is 240 bytes
+wrote: 240 bytes
+read:>9 19630921 Alexander Hall 94976
+117050976 19301016 David Lamprey 50895
+119610646 19650202 Thomas Porlock 83582
+120330928 19621126 Cary Cartman 90387
+122460462 19620411 Bella Oldman 94495
+123040628 19220213 Elizabeth Watson 90369
+123580905 1<
+writing:9 19630921 Alexander Hall 94976
+117050976 19301016 David Lamprey 50895
+119610646 19650202 Thomas Porlock 83582
+120330928 19621126 Cary Cartman 90387
+122460462 19620411 Bella Oldman 94495
+123040628 19220213 Elizabeth Watson 90369
+123580905 1
+which is 240 bytes
+wrote: 240 bytes
+read:>9230308 Gustav Hornswaggle 37568
+125040813 19840613 Godfrey Tumor 55645
+125610677 19580903 Gustav Trentham 73590
+126470499 19521219 Justin Oddly 33458
+127700250 19300616 Ursula Farnes 74163
+129540334 19791114 Betty Eaton 25807
+<
+writing:9230308 Gustav Hornswaggle 37568
+125040813 19840613 Godfrey Tumor 55645
+125610677 19580903 Gustav Trentham 73590
+126470499 19521219 Justin Oddly 33458
+127700250 19300616 Ursula Farnes 74163
+129540334 19791114 Betty Eaton 25807
+
+which is 227 bytes
+wrote: 227 bytes
