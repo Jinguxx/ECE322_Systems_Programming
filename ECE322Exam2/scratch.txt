@@ -1,0 +1,33 @@
+//child 1 code
+char result;
+		int count = 0;
+		char arr[4];
+		
+		DPRINT("child(%d): reading from pipe 1\n",mypid);
+		
+		while((read(pipe1[0], &result,1)) != EOF){
+            if(result=='\0'){//when it has not recieved a full set of 4 chars, fills with 'z'
+				arr[count]='z';
+				count++;
+				if(count == 4){
+					printf("%c%c%c%c\n",arr[0],arr[1],arr[2],arr[3]);
+                    DPRINT("child(%d): writing to pipe2\n",mypid);
+					write(pipe2[1],&result,4);
+					break;
+				}
+			}
+			else{//reads from pipe1, every 4 chars writes to stdout, op1, and writes to pipe 2
+				arr[count]=result;
+                count++;
+                if(count==4){
+                    printf("%c%c%c%c\n",arr[0],arr[1],arr[2],arr[3]);
+                    DPRINT("child(%d): writing to pipe 2\n",mypid);
+                    write(pipe2[1],&result,4);
+                    count=0;
+                }
+			}
+		}
+
+
+
+//child 2
